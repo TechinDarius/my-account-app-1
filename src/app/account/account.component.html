@@ -1,9 +1,0 @@
-<h1>My account</h1>
-@for(account of accounts; track account.name){
-  <h2>{{ account.name }} </h2>
-  <app-balance
-    [balance]="account.balance"
-    (withdraw)="withdraw(account, $event)"
-    (deposit)="deposit(account, $event)"
-  ></app-balance>
-}
