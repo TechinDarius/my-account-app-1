@@ -47,7 +47,10 @@ nav ul li a:hover {
     background: #ff5733;
 }
 
-.container .content { 
+.container .content {
     flex: 5 0 0;
     padding: 10px 20px;
+}
+nav ul li a .active{
+  color: #ffff00;
 }

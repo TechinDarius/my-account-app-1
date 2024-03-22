@@ -1,0 +1,5 @@
+@for(account of accountsToShow; track account.name){
+  <a [routerLink]="['/account',account.id]">
+    <img [src]="account.imageUrl" width ="100"/>
+  </a>
+}
